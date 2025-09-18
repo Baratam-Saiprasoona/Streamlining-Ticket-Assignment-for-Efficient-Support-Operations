@@ -43,6 +43,7 @@ Users represent individuals in the system. Two users were created:
 - **Katherine Pierce** – Member of the Certificates Group.  
 - **Manne Niranjan** – Member of the Platform Group.  
 
+<img width="1437" height="601" alt="image" src="https://github.com/user-attachments/assets/810dedf1-3a3a-419d-92e1-f6afda1b8573" />
 
 ---
 
