@@ -32,7 +32,7 @@ This project leverages **ServiceNow** to deploy an **automated ticket assignment
 3. Request a **Personal Developer Instance (PDI)**.  
 4. Use **Creator Studio/App Engine Studio** to build the application.  
 
-<img width="1885" height="772" alt="image" src="https://github.com/user-attachments/assets/your-image-id-here" />  
+<img width="968" height="478" alt="image" src="https://github.com/user-attachments/assets/54420330-ab7f-45f7-bdb6-583ec17139c2" />
 
 ---
 
@@ -43,7 +43,6 @@ Users represent individuals in the system. Two users were created:
 - **Katherine Pierce** – Member of the Certificates Group.  
 - **Manne Niranjan** – Member of the Platform Group.  
 
-<img width="1392" height="678" alt="user_record" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
@@ -52,7 +51,6 @@ Groups represent teams that handle tickets:
 - **Certificates Group** – Manages certificate-related issues.  
 - **Platform Group** – Handles login issues, 404 errors, and expired accounts.  
 
-<img width="1388" height="517" alt="group_record" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
@@ -60,8 +58,6 @@ Groups represent teams that handle tickets:
 Roles define permissions:  
 - **Certificate_role** – Grants certificate issue handling access.  
 - **Platform_role** – Grants platform issue handling access.  
-
-<img width="1413" height="466" alt="role_record" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
@@ -75,7 +71,6 @@ Choices for the **Issue** field:
 - Regarding certificates  
 - Regarding user expired  
 
-<img width="1367" height="727" alt="columns" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
@@ -83,21 +78,18 @@ Choices for the **Issue** field:
 - **Certificates Group:** Katherine Pierce + Certificate_role  
 - **Platform Group:** Manne Niranjan + Platform_role  
 
-<img width="1327" height="757" alt="assign_cert" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
 ### 6️⃣ Assigning Roles to Table  
 Both **Certificate_role** and **Platform_role** were assigned **Read/Write access** to the *Operations related* table.  
 
-<img width="1372" height="482" alt="access_write" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
 ### 7️⃣ Creating ACLs  
 Access Control Lists (ACLs) were defined for sensitive fields (Issue, Priority, Ticket Raised Date) to restrict access to authorized roles (admin).  
 
-<img width="1390" height="480" alt="acl" src="https://github.com/user-attachments/assets/your-image-id-here" />  
 
 ---
 
@@ -105,13 +97,6 @@ Access Control Lists (ACLs) were defined for sensitive fields (Issue, Priority, 
 - **Flow 1:** Automatically assign *“Regarding Certificates”* tickets to the Certificates Group.  
 - **Flow 2:** Automatically assign *Platform-related issues* (Login, 404 Error, User Expired) to the Platform Group.  
 
-<img width="1887" height="832" alt="flow_designer" src="https://github.com/user-attachments/assets/your-image-id-here" />  
-
----
-
-## 📷 Screenshots of Output  
-- Tickets with “Regarding Certificates” → Auto-assigned to Certificates Group.  
-- Tickets with “Unable to login”, “404 Error”, “User Expired” → Auto-assigned to Platform Group.  
 
 ---
 
