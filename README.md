@@ -1,12 +1,12 @@
 # Streamlining-Ticket-Assignment-for-Efficient-Support-Operations
 
-#📄 Project Overview
+# 📄 Project Overview
 
 At ABC Corporation, the rising volume of support requests revealed the need for a smarter and more automated ticket management process. Manual routing often caused delays, incorrect assignments, and uneven workloads.
 
 This project leverages ServiceNow to build an automated ticket assignment system, ensuring tickets reach the right team without manual intervention.
 
-#🎯 Project Objectives
+# 🎯 Project Objectives
 
   - Automate ticket routing to ensure quick and accurate assignment.
   - Reduce delays in issue resolution by minimizing human error.
@@ -14,24 +14,18 @@ This project leverages ServiceNow to build an automated ticket assignment system
   - Optimize resource utilization by balancing workloads across teams.
   - Enhance transparency with clear assignment logic and reporting.
 
-#✨ Key Features
+# ✨ Key Features
 
-Automated Routing – Instantly directs tickets to the right group.
+ - Automated Routing – Instantly directs tickets to the right group.
+ - Dynamic Rules – Configurable by category, priority, or type.
+ - Load Balancing – Distributes workload evenly.
+ - Escalation Support – Auto-escalates tickets nearing SLA breach.
+ - Notifications – Real-time alerts for quicker responses.
+ - Analytics – Reports on ticket flow and team performance.
 
-Dynamic Rules – Configurable by category, priority, or type.
+# ⚙️ ServiceNow Developer Setup
 
-Load Balancing – Distributes workload evenly.
-
-Escalation Support – Auto-escalates tickets nearing SLA breach.
-
-Notifications – Real-time alerts for quicker responses.
-
-Analytics – Reports on ticket flow and team performance.
-
-⚙️ ServiceNow Developer Setup
-
-Sign up for a free developer account at the ServiceNow Developer Portal
-.
+Sign up for a free developer account at the ServiceNow Developer Portal.
 
 Verify your email and log in.
 
