@@ -112,4 +112,4 @@ This project demonstrates how **ServiceNow automation** streamlines IT Service M
 ---
 
 ### 🔗 GitHub Link  
-[Streamlining Ticket Assignment for Efficient Support Operations](https://github.com/Baratam-Saiprasoona/Streamlining-Ticket-Assignment-for-Efficient-Support-Operations)  
+[Streamlining Ticket Assignment for Efficient Support Operations](https://github.com/Baratam-Saiprasoona/Streamlining-Ticket-Assignment-for-Efficient-Support-Operations.git)  
