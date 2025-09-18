@@ -71,8 +71,7 @@ A custom table **Operations related** was created with fields:
     
 <img width="940" height="249" alt="image" src="https://github.com/user-attachments/assets/e2a1a850-8c07-41ab-93e3-543306656243" />
 
-<img width="932" height="371" alt="image" src="https://github.com/user-attachments/assets/13e6d321-9991-4092-af55-d8df3cbb35dc" />
-
+<img width="767" height="431" alt="image" src="https://github.com/user-attachments/assets/1c66b6c1-60d3-48c1-b2b1-ecea37f346a4" />
 
 Choices for the **Issue** field:  
 - Unable to login to platform  
@@ -80,7 +79,7 @@ Choices for the **Issue** field:
 - Regarding certificates  
 - Regarding user expired  
 
-<img width="840" height="477" alt="image" src="https://github.com/user-attachments/assets/ff7a991d-7512-43bb-85fc-6e06b3768d29" />
+<img width="958" height="459" alt="image" src="https://github.com/user-attachments/assets/66ec7d4c-297d-4f37-b3b9-b37afc62a433" />
 
 ---
 
@@ -97,7 +96,7 @@ Choices for the **Issue** field:
 
 ### 6️⃣ Assigning Roles to Table  
 Both **Certificate_role** and **Platform_role** were assigned **Read/Write access** to the *Operations related* table.  
-<img width="940" height="153" alt="image" src="https://github.com/user-attachments/assets/0487d0d9-75b5-4d6a-b363-9c8aa3d17abf" />
+<img width="718" height="244" alt="image" src="https://github.com/user-attachments/assets/e66c9dd1-711b-45e0-be29-5b8c8dd1c09d" />
 
 ---
 
@@ -110,7 +109,7 @@ Access Control Lists (ACLs) were defined for sensitive fields (Issue, Priority, 
 ### 8️⃣ Creating Flows for Ticket Assignment  
 - **Flow 1:** Automatically assign *“Regarding Certificates”* tickets to the Certificates Group.  
 - **Flow 2:** Automatically assign *Platform-related issues* (Login, 404 Error, User Expired) to the Platform Group.  
-<img width="940" height="383" alt="image" src="https://github.com/user-attachments/assets/0dd82b42-d396-453c-a555-db36090f333f" />
+<img width="1918" height="843" alt="image" src="https://github.com/user-attachments/assets/656b8f1e-29fc-4afa-83ef-7aec49430f30" />
 
 ---
 
