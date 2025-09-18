@@ -1,75 +1,73 @@
 # Streamlining-Ticket-Assignment-for-Efficient-Support-Operations
-📖 Project Overview
+Streamlining Ticket Assignment for Efficient Support Operations
+📄 Project Overview
 
-At ABC Corporation, the rapid growth of support requests highlighted the need for an automated ticket management system. Manual ticket assignment often caused delays, misrouting, and unbalanced workloads.
+At ABC Corporation, the rising volume of support requests revealed the need for a smarter and more automated ticket management process. Manual routing often caused delays, incorrect assignments, and uneven workloads.
 
-This project implements an automated ticket assignment system in ServiceNow, ensuring tickets are routed to the correct team without manual intervention.
+This project leverages ServiceNow to build an automated ticket assignment system, ensuring tickets reach the right team without manual intervention.
 
-🎯 Objectives
+🎯 Project Objectives
 
-Automate ticket routing for timely and accurate assignment.
+Automate ticket routing to ensure quick and accurate assignment.
 
-Minimize delays and errors caused by manual intervention.
+Reduce delays in issue resolution by minimizing human error.
 
-Enhance customer satisfaction through faster response times.
+Improve customer satisfaction through faster responses.
 
-Optimize team resources with balanced workloads.
+Optimize resource utilization by balancing workloads across teams.
 
-Increase transparency with clear assignment logic and reporting.
+Enhance transparency with clear assignment logic and reporting.
 
 ✨ Key Features
 
-Automated Routing – Tickets instantly go to the right team.
+Automated Routing – Instantly directs tickets to the right group.
 
-Dynamic Rules – Configurable logic based on category or priority.
+Dynamic Rules – Configurable by category, priority, or type.
 
-Load Balancing – Even distribution of workload across teams.
+Load Balancing – Distributes workload evenly.
 
-Escalation Support – Auto-escalation for tickets nearing SLA breaches.
+Escalation Support – Auto-escalates tickets nearing SLA breach.
 
-Real-time Notifications – Alerts for quicker response.
+Notifications – Real-time alerts for quicker responses.
 
-Analytics & Reporting – Insights into ticket flow and team performance.
+Analytics – Reports on ticket flow and team performance.
 
 ⚙️ ServiceNow Developer Setup
 
-Create a free developer account at the ServiceNow Developer Portal
+Sign up for a free developer account at the ServiceNow Developer Portal
 .
 
 Verify your email and log in.
 
 Request a Personal Developer Instance (PDI).
 
-Use Creator Studio/App Engine Studio to build and configure the application.
+Use Creator Studio/App Engine Studio to build the application.
 
-🛠️ Implementation Steps
+🛠️ Project Implementation in ServiceNow
 1️⃣ Creating Users
 
-Users represent individuals in the system:
+Katherine Pierce – Member of Certificates Group.
 
-Katherine Pierce – Member of the Certificates Group.
-
-Manne Niranjan – Member of the Platform Group.
+Manne Niranjan – Member of Platform Group.
 
 2️⃣ Creating Groups
 
-Groups represent teams handling tickets:
+Certificates Group – Handles certificate-related issues.
 
-Certificates Group – Manages certificate-related issues.
-
-Platform Group – Manages login issues, 404 errors, and expired accounts.
+Platform Group – Handles login issues, 404 errors, and expired accounts.
 
 3️⃣ Creating Roles
-
-Roles define permissions:
 
 Certificate_role – Access to certificate-related tickets.
 
 Platform_role – Access to platform-related tickets.
 
-4️⃣ Creating a Custom Table & Choices
+4️⃣ Creating Table & Choices
 
-Custom table Operations related with fields: Issue, Description, Assigned To, Status.
+A custom table Operations related was created with fields:
+
+Issue, Description, Assigned To, Status.
+
 Choices for the Issue field:
 
 Unable to login to platform
@@ -88,36 +86,34 @@ Platform Group: Manne Niranjan + Platform_role
 
 6️⃣ Assigning Roles to Table
 
-Both roles granted Read/Write access to the Operations related table.
+Both Certificate_role and Platform_role were granted Read/Write access to the “Operations related” table.
 
 7️⃣ Creating ACLs
 
-Access Control Lists (ACLs) created for sensitive fields (Issue, Priority, Ticket Raised Date) to restrict access to authorized roles (admin).
+Defined Access Control Lists (ACLs) for sensitive fields (Issue, Priority, Ticket Raised Date) to restrict access to authorized roles (admin).
 
-8️⃣ Creating Automated Flows
+8️⃣ Creating Flows for Ticket Assignment
 
-Flow 1: Automatically assign “Regarding Certificates” tickets to the Certificates Group.
+Flow 1: Assign “Regarding Certificates” tickets to the Certificates Group.
 
-Flow 2: Automatically assign Platform-related issues (Login, 404 Error, User Expired) to the Platform Group.
+Flow 2: Assign Platform-related issues (Login, 404 Error, User Expired) to the Platform Group.
 
-📸 Screenshots
+🖼️ Screenshots of Output
 
-Tickets with “Regarding Certificates” → Automatically routed to Certificates Group.
+Tickets created with “Regarding Certificates” issue → auto-assigned to Certificates Group.
 
-Tickets with “Unable to login”, “404 Error”, “User Expired” → Automatically routed to Platform Group.
+Tickets created with Login/404/User Expired issues → auto-assigned to Platform Group.
 
-✅ Results
+✅ Conclusion
 
-The automated ticket assignment system has:
+The automated ticket assignment system in ServiceNow has streamlined support operations at ABC Corporation. By automating routing:
 
-Reduced delays by eliminating manual routing.
+Faster: Tickets reach the right team instantly.
 
-Improved accuracy by ensuring tickets reach the right team.
+Accurate: Reduced misrouting and delays.
 
-Optimized workloads across support groups.
+Efficient: Optimized workload distribution.
 
-Enhanced customer satisfaction with faster resolution times.
+Customer-Focused: Faster resolution enhances satisfaction.
 
-📝 Conclusion
-
-This project demonstrates how ServiceNow automation can transform IT Service Management (ITSM). By minimizing administrative tasks, it allows support teams to focus on solving issues rather than managing ticket distribution.
+This project showcases how ServiceNow automation improves IT Service Management (ITSM), freeing teams from repetitive tasks and enabling them to focus on actual problem-solving.
