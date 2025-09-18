@@ -1,24 +1,20 @@
 # Streamlining-Ticket-Assignment-for-Efficient-Support-Operations
-Streamlining Ticket Assignment for Efficient Support Operations
-📄 Project Overview
+
+#📄 Project Overview
 
 At ABC Corporation, the rising volume of support requests revealed the need for a smarter and more automated ticket management process. Manual routing often caused delays, incorrect assignments, and uneven workloads.
 
 This project leverages ServiceNow to build an automated ticket assignment system, ensuring tickets reach the right team without manual intervention.
 
-🎯 Project Objectives
+#🎯 Project Objectives
 
-Automate ticket routing to ensure quick and accurate assignment.
+  - Automate ticket routing to ensure quick and accurate assignment.
+  - Reduce delays in issue resolution by minimizing human error.
+  - Improve customer satisfaction through faster responses.
+  - Optimize resource utilization by balancing workloads across teams.
+  - Enhance transparency with clear assignment logic and reporting.
 
-Reduce delays in issue resolution by minimizing human error.
-
-Improve customer satisfaction through faster responses.
-
-Optimize resource utilization by balancing workloads across teams.
-
-Enhance transparency with clear assignment logic and reporting.
-
-✨ Key Features
+#✨ Key Features
 
 Automated Routing – Instantly directs tickets to the right group.
 
